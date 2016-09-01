@@ -161,7 +161,7 @@ BOOL ImageDataHasPNGPreffix(NSData *data) {
                 // 137 80 78 71 13 10 26 10
 
                 // We assume the image is PNG, in case the imageData is nil (i.e. if trying to save a UIImage directly),
-                // we will consider it PNG to avoid loosing the transparency
+                // we will consider it PNG to avoid losing the transparency
                 BOOL imageIsPng = YES;
 
                 // But if we have an image data, we will look at the preffix
